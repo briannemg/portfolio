@@ -4,38 +4,27 @@ import "../styles/styles.css";
 const Resume = () => {
   return (
     <main className="resume-page">
-      <h1>Brianne (Gerber) Nelson</h1>
+      <h2>Brianne (Gerber) Nelson</h2>
       <p className="subtitle">
         Atmospheric Scientist | Scientific Software Developer
       </p>
-      <p className="contact-info">
+
+      <section className="resume-download">
         <a
-          href="mailto:briannemg@gmail.com"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
+          download
           target="_blank"
           rel="noopener noreferrer"
+          className="resume-download-button"
         >
-          briannemg@gmail.com
-        </a>{" "}
-        |{" "}
-        <a
-          href="https://github.com/briannemg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github.com/briannemg
-        </a>{" "}
-        |{" "}
-        <a
-          href="https://linkedin.com/in/brianne-gerber-nelson"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin.com/in/brianne-gerber-nelson
+          Download PDF Version
         </a>
-      </p>
+      </section>
+
+      <hr />
 
       <section>
-        <h2>Professional Summary</h2>
+        <h3>Professional Summary</h3>
         <p>
           Atmospheric scientist with over 8 years of experience in numerical
           weather prediction (NWP), forecast verification, and scientific data
@@ -47,8 +36,10 @@ const Resume = () => {
         </p>
       </section>
 
+      <hr />
+
       <section>
-        <h2>Core Competencies</h2>
+        <h3>Core Competencies</h3>
         <ul>
           <li>Numerical Weather Prediction (NWP)</li>
           <li>
@@ -69,10 +60,12 @@ const Resume = () => {
         </ul>
       </section>
 
-      <section>
-        <h2>Experience</h2>
+      <hr />
 
-        <h3>Associate Scientist II</h3>
+      <section>
+        <h3>Experience</h3>
+
+        <h4>Associate Scientist II</h4>
         <p>
           <em>
             National Center for Atmospheric Research (NCAR), Boulder, CO | Dec
@@ -101,7 +94,7 @@ const Resume = () => {
           </li>
         </ul>
 
-        <h3>Associate Scientist</h3>
+        <h4>Associate Scientist</h4>
         <p>
           <em>
             AWS Truepower (a UL Company), Albany, NY | Jun 2017 – Oct 2019
@@ -128,10 +121,12 @@ const Resume = () => {
         </ul>
       </section>
 
-      <section>
-        <h2>Education</h2>
+      <hr />
 
-        <h3>Master of Science in Atmospheric and Environmental Science</h3>
+      <section>
+        <h3>Education</h3>
+
+        <h4>Master of Science in Atmospheric and Environmental Science</h4>
         <p>
           <em>
             South Dakota School of Mines and Technology, Rapid City, SD | May
@@ -144,7 +139,7 @@ const Resume = () => {
           Forecasting Models
         </p>
 
-        <h3>Bachelor of Science in Atmospheric Science</h3>
+        <h4>Bachelor of Science in Atmospheric Science</h4>
         <p>
           <em>University of Kansas, Lawrence, KS | May 2012</em>
         </p>
@@ -152,10 +147,12 @@ const Resume = () => {
         <p>Certification in Research Experience</p>
       </section>
 
-      <section>
-        <h2>Research Experience</h2>
+      <hr />
 
-        <h3>Graduate Researcher – Atmospheric and Environmental Sciences</h3>
+      <section>
+        <h3>Research Experience</h3>
+
+        <h4>Graduate Researcher – Atmospheric and Environmental Sciences</h4>
         <p>
           <em>
             South Dakota School of Mines and Technology | Aug 2013 – May 2015
@@ -174,7 +171,7 @@ const Resume = () => {
           </li>
         </ul>
 
-        <h3>Undergraduate Research Assistant – Atmospheric Science</h3>
+        <h4>Undergraduate Research Assistant – Atmospheric Science</h4>
         <p>
           <em>University of Kansas | Aug 2011 – May 2012</em>
         </p>
@@ -189,8 +186,10 @@ const Resume = () => {
         </ul>
       </section>
 
+      <hr />
+
       <section>
-        <h2>Projects</h2>
+        <h3>Projects</h3>
 
         <ul>
           <li>
@@ -226,8 +225,10 @@ const Resume = () => {
         </ul>
       </section>
 
+      <hr />
+
       <section>
-        <h2>Technical Skills</h2>
+        <h3>Technical Skills</h3>
 
         <ul>
           <li>
@@ -256,17 +257,6 @@ const Resume = () => {
             Automation, Collaboration
           </li>
         </ul>
-      </section>
-
-      <section className="resume-download">
-        <a
-          href="/files/YourResume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-download-button"
-        >
-          Download PDF Version
-        </a>
       </section>
     </main>
   );
