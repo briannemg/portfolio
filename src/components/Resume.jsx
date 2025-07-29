@@ -4,7 +4,7 @@ import "../styles/styles.css";
 const Resume = () => {
   return (
     <main className="resume-page">
-      <h2>Brianne (Gerber) Nelson</h2>
+      <h1>Brianne (Gerber) Nelson</h1>
       <p className="subtitle">
         Atmospheric Scientist | Scientific Software Developer
       </p>
@@ -24,7 +24,7 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Professional Summary</h3>
+        <h2>Professional Summary</h2>
         <p>
           Atmospheric scientist with over 8 years of experience in numerical
           weather prediction (NWP), forecast verification, and scientific data
@@ -39,7 +39,7 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Core Competencies</h3>
+        <h2>Core Competencies</h2>
         <ul>
           <li>Numerical Weather Prediction (NWP)</li>
           <li>
@@ -63,9 +63,9 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Experience</h3>
+        <h2>Experience</h2>
 
-        <h4>Associate Scientist II</h4>
+        <h3>Associate Scientist II</h3>
         <p>
           <em>
             National Center for Atmospheric Research (NCAR), Boulder, CO | Dec
@@ -94,7 +94,7 @@ const Resume = () => {
           </li>
         </ul>
 
-        <h4>Associate Scientist</h4>
+        <h3>Associate Scientist</h3>
         <p>
           <em>
             AWS Truepower (a UL Company), Albany, NY | Jun 2017 – Oct 2019
@@ -124,9 +124,9 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Education</h3>
+        <h2>Education</h2>
 
-        <h4>Master of Science in Atmospheric and Environmental Science</h4>
+        <h3>Master of Science in Atmospheric and Environmental Science</h3>
         <p>
           <em>
             South Dakota School of Mines and Technology, Rapid City, SD | May
@@ -139,7 +139,7 @@ const Resume = () => {
           Forecasting Models
         </p>
 
-        <h4>Bachelor of Science in Atmospheric Science</h4>
+        <h3>Bachelor of Science in Atmospheric Science</h3>
         <p>
           <em>University of Kansas, Lawrence, KS | May 2012</em>
         </p>
@@ -150,9 +150,9 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Research Experience</h3>
+        <h2>Research Experience</h2>
 
-        <h4>Graduate Researcher – Atmospheric and Environmental Sciences</h4>
+        <h3>Graduate Researcher – Atmospheric and Environmental Sciences</h3>
         <p>
           <em>
             South Dakota School of Mines and Technology | Aug 2013 – May 2015
@@ -171,7 +171,7 @@ const Resume = () => {
           </li>
         </ul>
 
-        <h4>Undergraduate Research Assistant – Atmospheric Science</h4>
+        <h3>Undergraduate Research Assistant – Atmospheric Science</h3>
         <p>
           <em>University of Kansas | Aug 2011 – May 2012</em>
         </p>
@@ -189,7 +189,7 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Projects</h3>
+        <h2>Projects</h2>
 
         <ul>
           <li>
@@ -228,7 +228,7 @@ const Resume = () => {
       <hr />
 
       <section>
-        <h3>Technical Skills</h3>
+        <h2>Technical Skills</h2>
 
         <ul>
           <li>
