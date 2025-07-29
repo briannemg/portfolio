@@ -1,53 +1,20 @@
-import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import "./styles/styles.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
+import Layout from "./components/Layout";
 
-import Resume from "./components/Resume";
-import Footer from "./components/Footer";
-import ProjectCard from "./components/ProjectCard";
-import Navbar from "./components/Navbar";
-import Contact from "./components/Contact";
-
-function App() {
-  const projects = [
-    {
-      title: "Example Title",
-      description:
-        "Example description sentence describing the project and what it does.",
-      link: "https://github.com/yourusername/example-project",
-    },
-    // Add more projects here!
-  ];
-
-  const Home = () => (
-    <main className="project-grid">
-      {projects.map((project, index) => (
-        <ProjectCard
-          key={index}
-          title={project.title}
-          description={project.description}
-          link={project.link}
-        />
-      ))}
-    </main>
-  );
-
+const App = () => {
   return (
-    <div className="app-container">
-      <header>
-        <h1>✨ Brianne's Developer Portfolio ✨</h1>
-        <p>Creative, passionate, and dangerously good at React.</p>
-      </header>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="resume" element={<Resume />} />
+        <Route path="contact" element={<Contact />} />
+        {/* Future routes like projects can go here too */}
+      </Route>
+    </Routes>
   );
-}
+};
 
 export default App;

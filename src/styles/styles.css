@@ -120,52 +120,120 @@ p {
   text-decoration: underline;
 }
 
-/* Resume page */
-.resume-container {
+/* Main page */
+.home-page {
   max-width: 700px;
   margin: 2rem auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   color: var(--text);
   font-size: 1.1rem;
 }
 
-.resume-container h2,
-.resume-container h3,
-.resume-container h4 {
-  color: var(--primary);
-  margin-bottom: 1rem;
+.home-page .intro {
+  margin-bottom: 2rem;
 }
 
-.resume-container a {
+.home-page .navigation-links ul,
+.home-page .featured-projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-page .navigation-links li,
+.home-page .featured-projects li {
+  margin: 0.8rem 0;
+}
+
+.home-page a {
   color: var(--accent);
   text-decoration: none;
+  font-weight: 600;
 }
 
-.resume-container a:hover {
+.home-page a:hover {
   color: var(--primary);
   text-decoration: underline;
 }
 
-.resume-download {
+.personal-touch {
+  margin-top: 3rem;
+  font-style: italic;
+  color: var(--accent);
+  text-align: center;
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+}
+
+/* Resume page */
+.resume-page {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  color: var(--text);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.resume-page h1,
+.resume-page h2,
+.resume-page h3,
+.resume-page h4 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.resume-page p,
+.resume-page ul {
+  margin-bottom: 1.25rem;
+}
+
+.resume-page ul {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.resume-page strong {
+  color: var(--accent);
+}
+
+.resume-page a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.resume-page a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.resume-page section {
+  background-color: rgba(255, 255, 255, 0.05); /* very subtle white overlay */
+  padding: 1.5rem 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.resume-page section:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+}
+
+.resume-download-button {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: var(--primary);
-  color: #fff;
+  color: var(--bg);
   border-radius: 6px;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
-.resume-download:hover {
+.resume-download-button:hover {
   background-color: var(--accent);
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 2rem 0;
+  color: var(--bg);
 }
 
 /* Contact page */
@@ -187,16 +255,25 @@ hr {
   align-items: center;
   gap: 0.5rem;
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .contact-page a {
   color: var(--accent);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .contact-page a:hover {
   color: var(--primary);
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-page svg {
+  color: var(--accent);
+  min-width: 1.25rem;
+  height: 1.25rem;
 }
 
 /* Footer */
