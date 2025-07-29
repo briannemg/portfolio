@@ -7,25 +7,19 @@ const Home = () => {
       <section className="intro">
         <h2>Hello, I’m Brianne 👋</h2>
         <p>
-          Atmospheric scientist turned budding software developer, passionate
-          about building clean, effective code and using data to make sense of
-          the weather — and life.
+          I'm an atmospheric scientist and budding scientific software developer
+          with over 8 years of experience turning complex weather data into
+          clear, actionable insights. I have specialized in forecast
+          verification, numerical weather prediction, and automating scientific
+          workflows using Python and high-performance computing.
         </p>
-      </section>
-
-      <section className="navigation-links">
-        <h3>Explore my site:</h3>
-        <ul>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/resume">Resume</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+        <p>
+          Passionate about collaboration and clean code, I thrive at the
+          intersection of research and software, helping teams accelerate
+          weather modeling projects and make data-driven decisions. Currently,
+          I’m learning front-end development and exploring new software
+          development skills to keep growing and expanding my toolkit.
+        </p>
       </section>
 
       <section className="featured-projects">
@@ -54,8 +48,8 @@ const Home = () => {
 
       <section className="personal-touch">
         <blockquote>
-          “The best way to predict the future is to build it.” — Brianne’s
-          unofficial motto
+          “Data tells the story; I’m just here to write the code that brings it
+          to life.” — Brianne’s guiding principle
         </blockquote>
       </section>
     </main>

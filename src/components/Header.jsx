@@ -1,8 +1,12 @@
 const Header = () => {
   return (
     <header className="site-header">
-      <h1>✨ Brianne's Developer Portfolio ✨</h1>
-      <p>Creative, passionate, and dangerously good at React.</p>
+      <div>
+        <h1>✨ Brianne Nelson ✨</h1>
+        <p class="subtitle">
+          Atmospheric Scientist | Budding Scientific Software Developer
+        </p>
+      </div>
     </header>
   );
 };

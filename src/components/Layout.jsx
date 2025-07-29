@@ -6,8 +6,8 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <Navbar />
       <Header /> {/* Same header on all pages */}
+      <Navbar />
       <main>
         <Outlet />
       </main>

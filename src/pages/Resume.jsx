@@ -1,28 +1,11 @@
 import React from "react";
 import "../styles/styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
   return (
     <main className="resume-page">
-      <h1>Brianne (Gerber) Nelson</h1>
-      <p className="subtitle">
-        Atmospheric Scientist | Scientific Software Developer
-      </p>
-
-      <section className="resume-download">
-        <a
-          href={`${import.meta.env.BASE_URL}resume.pdf`}
-          download
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-download-button"
-        >
-          Download PDF Version
-        </a>
-      </section>
-
-      <hr />
-
       <section>
         <h2>Professional Summary</h2>
         <p>
@@ -257,6 +240,19 @@ const Resume = () => {
             Automation, Collaboration
           </li>
         </ul>
+      </section>
+      <hr />
+      <section className="resume-download">
+        <a
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-download-button"
+        >
+          <FontAwesomeIcon icon={faDownload} className="download-icon" />
+          Download PDF Version
+        </a>
       </section>
     </main>
   );
