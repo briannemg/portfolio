@@ -1,10 +1,10 @@
 /* Soft, modern, and feminine vibes */
 :root {
-  --primary: #d8b4fe; /* lavender */
-  --accent: #f9a8d4; /* pink */
-  --text: #2d2d2d;
-  --bg: #fffafc;
-  --card-bg: #fdf4ff;
+  --primary: #6366f1; /* Indigo-500 */
+  --accent: #7c3aed; /* Violet-600 */
+  --text: #1f2937; /* Gray-800 */
+  --bg: #f3f4f6; /* Gray-100 */
+  --card-bg: #ede9fe; /* Violet-100 */
 }
 
 body {
@@ -12,35 +12,50 @@ body {
   font-family: "Segoe UI", sans-serif;
   background-color: var(--bg);
   color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem 1rem;
+  max-width: 800px;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-top: 0;
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
+  max-width: 1200px;
   padding: 2rem;
 }
 
 .project-card {
   background-color: var(--card-bg);
   border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .project-title {
@@ -52,10 +67,12 @@ h1 {
 .project-description {
   font-size: 1rem;
   margin-bottom: 1rem;
+  color: var(--text);
 }
 
 .project-link {
   color: var(--primary);
   text-decoration: none;
   font-weight: bold;
+  font-size: 1rem;
 }
