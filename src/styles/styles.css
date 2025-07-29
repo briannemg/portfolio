@@ -1,10 +1,10 @@
 /* Soft, modern, and feminine vibes */
 :root {
-  --primary: #6366f1; /* Indigo-500 */
-  --accent: #7c3aed; /* Violet-600 */
-  --text: #1f2937; /* Gray-800 */
-  --bg: #f3f4f6; /* Gray-100 */
-  --card-bg: #ede9fe; /* Violet-100 */
+  --primary: #4338ca; /* Deep indigo (Indigo-700) */
+  --accent: #6d28d9; /* Royal purple (Violet-700) */
+  --text: #f3f4f6; /* Light gray for contrast (Gray-100) */
+  --bg: #1e1b4b; /* Midnight navy with a violet tint */
+  --card-bg: #312e81; /* Dark indigo (Indigo-900) */
 }
 
 body {
@@ -22,6 +22,15 @@ header {
   text-align: center;
   padding: 3rem 1rem 1rem;
   max-width: 800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", serif;
 }
 
 h1 {
