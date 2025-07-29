@@ -3,8 +3,8 @@
   --primary: #4338ca; /* Deep indigo (Indigo-700) */
   --accent: #6d28d9; /* Royal purple (Violet-700) */
   --text: #f3f4f6; /* Light gray for contrast (Gray-100) */
-  --bg: #1e1b4b; /* Midnight navy with a violet tint */
-  --card-bg: #312e81; /* Dark indigo (Indigo-900) */
+  --bg: #2c2a6b; /* Indigo dye (Indigo-950 but slightly cooler and deeper */
+  --card-bg: #3f3cc9; /* Medium slate blue (between Indigo-600 and Indigo-700 but with a more saturated pop */
 }
 
 body {
