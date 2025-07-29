@@ -1,8 +1,11 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/styles.css";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 
-function App() {
+function HomePage() {
   const projects = [
     {
       title: "Example Title",
@@ -13,7 +16,7 @@ function App() {
     // Add more projects here!
   ];
 
-  // fix the <p> below...I'm not dangerously good at React. But I like the idea of describing myself here
+  // Fix <p> below to something that actually makes sense for me
   return (
     <>
       <header>
@@ -31,6 +34,20 @@ function App() {
         ))}
       </main>
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="app-container">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

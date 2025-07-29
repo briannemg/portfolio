@@ -85,3 +85,157 @@ p {
   font-weight: bold;
   font-size: 1rem;
 }
+
+.footer {
+  background-color: var(--card-bg);
+  color: var(--text);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.875rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.icon-container {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.icon-link {
+  color: var(--text);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.icon-link.linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.icon-link.linkedin:hover {
+  color: #9146ff; /* a purple-ish LinkedIn hover to blend in */
+}
+
+.resume-link-container {
+  margin: 0.5rem 0;
+}
+
+.resume-link {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.resume-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.resume-page {
+  max-width: 700px;
+  margin: 3rem auto;
+  background-color: var(--card-bg);
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  color: var(--text);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+.resume-page h1 {
+  color: var(--primary);
+  font-family: "EB Garamond", serif;
+  font-size: 2.8rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  text-align: center;
+  color: var(--accent);
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info a {
+  color: var(--text);
+  text-decoration: none;
+  margin: 0 0.35rem;
+}
+
+.contact-info a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.resume-page h2 {
+  color: var(--accent);
+  font-family: "EB Garamond", serif;
+  font-size: 1.9rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.3rem;
+}
+
+.resume-page h3 {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
+.resume-page p,
+.resume-page ul {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.resume-page ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.resume-page li {
+  margin-bottom: 0.7rem;
+}
+
+.resume-download {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.resume-download-button {
+  background-color: var(--primary);
+  color: var(--text);
+  font-weight: 700;
+  padding: 0.85rem 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.resume-download-button:hover {
+  background-color: var(--accent);
+  cursor: pointer;
+}
