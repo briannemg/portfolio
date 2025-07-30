@@ -5,6 +5,10 @@
   --text: #e5e7eb; /* Soft off-white for general text */
   --bg: #2c2a6b; /* Indigo dye (Indigo-950 but slightly cooler and deeper) */
   --card-bg: #3f3cc9; /* Medium slate blue (between Indigo-600 and Indigo-700 but with a more saturated pop) */
+
+  html {
+    font-size: 16px; /* Makes 1rem = 16px */
+  }
 }
 
 body {
@@ -16,6 +20,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 1rem;
 }
 
 header,
@@ -62,14 +67,34 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem; /* 40px */
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem; /* 32px */
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
   margin-bottom: 0.5rem;
 }
 
 p {
-  font-size: 1.25rem;
   margin-top: 0;
+}
+
+p,
+ul,
+ol {
+  font-size: 1rem; /* 16px */
+  line-height: 1.6;
   color: var(--text);
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 /* Navbar */
@@ -110,7 +135,6 @@ p {
   margin: 2rem auto;
   padding: 0 1.5rem;
   color: var(--text);
-  font-size: 1.1rem;
 }
 
 .home-page .intro {
@@ -154,7 +178,6 @@ p {
   margin: 2rem auto;
   padding: 0 1.5rem;
   color: var(--text);
-  font-size: 1.1rem;
 }
 
 .tabs {
@@ -196,7 +219,7 @@ p {
 
 .project-card {
   max-width: 320px; /* optional: keeps cards from getting too wide */
-  background-color: var(--card-bg);
+  background-color: rgba(255, 255, 255, 0.05); /* very subtle white overlay */
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
@@ -211,7 +234,7 @@ p {
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   color: var(--accent);
 }
@@ -240,6 +263,7 @@ p {
   margin: 2rem auto;
   padding: 0 1.5rem;
   color: var(--text);
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -284,6 +308,13 @@ p {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
 }
 
+.resume-download {
+  background: none;
+  box-shadow: none;
+  text-align: center;
+  padding: 2rem 0;
+}
+
 .resume-download-button {
   display: inline-flex;
   align-items: center;
@@ -291,13 +322,13 @@ p {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   background-color: var(--primary);
-  color: var(--bg);
+  color: var(--text);
   border-radius: 12px;
   font-weight: 600;
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(67, 56, 202, 0.3);
   transition: background-color 0.3s ease, transform 0.15s ease;
-  font-size: 1.1rem;
+  font-size: 1rem;
   user-select: none;
 }
 
@@ -310,7 +341,7 @@ p {
 }
 
 .download-icon {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* Contact page */
