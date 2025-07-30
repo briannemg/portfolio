@@ -20,8 +20,14 @@ const allProjects = [
     demo: "https://briannemg.github.io/fcc-javascript-algorithms",
   },
   {
+    category: "Front-End",
+    title: "freeCodeCamp Random Quote Machine",
+    code: "https://github.com/briannemg/fcc-random-quote-machine",
+    demo: "https://briannemg.github.io/fcc-random-quote-machine",
+  },
+  {
     category: "Python",
-    title: "Data Analysis Projects",
+    title: "Data Analysis Projects - NOT REAL",
     description:
       "Python projects demonstrating exploratory data analysis, visualization, and statistical insights.",
     code: "https://github.com/briannemg/data-analysis-projects",
