@@ -6,6 +6,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 const Resume = () => {
   return (
     <main className="resume-page">
+      <h2>Resume</h2>
       <section>
         <h2>Professional Summary</h2>
         <p>
