@@ -72,54 +72,6 @@ p {
   color: var(--text);
 }
 
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 1200px;
-  padding: 2rem;
-}
-
-.project-card {
-  background-color: var(--card-bg);
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: center;
-  color: var(--text);
-}
-
-.project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.project-title {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--accent);
-}
-
-.project-description {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: var(--text);
-}
-
-.project-link {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.project-link:hover {
-  color: var(--primary);
-  text-decoration: underline;
-}
-
 /* Navbar */
 .navbar {
   position: fixed;
@@ -194,6 +146,83 @@ p {
   text-align: center;
   border-left: 4px solid var(--accent);
   padding-left: 1rem;
+}
+
+/* Projects page */
+.tabs {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  background: var(--card-bg);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: var(--text);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+.tab-button.active {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  color: var(--text);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.project-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.project-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
 }
 
 /* Resume page */
