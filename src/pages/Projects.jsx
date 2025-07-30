@@ -14,6 +14,12 @@ const allProjects = [
     demo: "https://briannemg.github.io/fcc-responsive-web-design/", // optional
   },
   {
+    category: "Front-End",
+    title: "freeCodeCamp's JavaScript Algorithms and Data Structures Projects",
+    code: "https://github.com/briannemg/fcc-javascript-algorithms",
+    demo: "https://briannemg.github.io/fcc-javascript-algorithms",
+  },
+  {
     category: "Python",
     title: "Data Analysis Projects",
     description:

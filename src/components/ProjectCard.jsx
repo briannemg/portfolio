@@ -24,7 +24,7 @@ export default function ProjectCard({ title, description, code, demo }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub →
+            Code →
           </a>
         )}
       </div>

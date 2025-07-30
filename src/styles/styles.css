@@ -252,6 +252,17 @@ li {
   font-size: 1rem;
 }
 
+.project-links {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 0.5rem; /* smaller vertical gap */
+}
+
+.project-links a {
+  display: block;
+}
+
 .project-link:hover {
   color: var(--primary);
   text-decoration: underline;
