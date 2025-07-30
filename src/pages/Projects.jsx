@@ -2,29 +2,26 @@ import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import "../styles/styles.css";
 
+const categories = ["All", "Python", "Front-End", "Back-End"];
+
 const allProjects = [
   {
-    category: "Python",
-    title: "Python Project 1",
-    description: "A cool Python project about data analysis.",
-    link: "https://github.com/briannemg/python-project-1",
-  },
-  {
     category: "Front-End",
-    title: "Responsive Portfolio",
-    description: "A portfolio website built with React and CSS.",
-    link: "https://github.com/briannemg/responsive-portfolio",
+    title: "freeCodeCamp's Responsive Web Design Projects",
+    description:
+      "The projects required to earn freeCodeCamp's Responsive Web Design certificate.",
+    code: "https://github.com/briannemg/fcc-responsive-web-design",
+    demo: "https://briannemg.github.io/fcc-responsive-web-design/", // optional
   },
   {
-    category: "Back-End",
-    title: "API Server",
-    description: "REST API built with Node.js and Express.",
-    link: "https://github.com/briannemg/api-server",
+    category: "Python",
+    title: "Data Analysis Projects",
+    description:
+      "Python projects demonstrating exploratory data analysis, visualization, and statistical insights.",
+    code: "https://github.com/briannemg/data-analysis-projects",
+    // no demo
   },
-  // Add your real projects here
 ];
-
-const categories = ["All", "Python", "Front-End", "Back-End"];
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -41,9 +38,7 @@ export default function Projects() {
         {categories.map((cat) => (
           <button
             key={cat}
-            className={`tab-button ${
-              selectedCategory === cat ? "active" : ""
-            }`}
+            className={`tab-button ${selectedCategory === cat ? "active" : ""}`}
             onClick={() => setSelectedCategory(cat)}
           >
             {cat}
@@ -58,7 +53,8 @@ export default function Projects() {
               key={i}
               title={project.title}
               description={project.description}
-              link={project.link}
+              code={project.code}
+              demo={project.demo}
             />
           ))
         ) : (
