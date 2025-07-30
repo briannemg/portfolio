@@ -240,7 +240,6 @@ p {
   margin: 2rem auto;
   padding: 0 1.5rem;
   color: var(--text);
-  font-size: 1.1rem;
   line-height: 1.6;
 }
 
@@ -260,10 +259,6 @@ p {
 .resume-page ul {
   padding-left: 1.25rem;
   list-style-type: disc;
-}
-
-.resume-page strong {
-  color: var(--accent);
 }
 
 .resume-page a {

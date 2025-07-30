@@ -20,8 +20,6 @@ const Resume = () => {
         </p>
       </section>
 
-      <hr />
-
       <section>
         <h2>Core Competencies</h2>
         <ul>
@@ -44,17 +42,13 @@ const Resume = () => {
         </ul>
       </section>
 
-      <hr />
-
       <section>
         <h2>Experience</h2>
 
         <h3>Associate Scientist II</h3>
         <p>
-          <em>
-            National Center for Atmospheric Research (NCAR), Boulder, CO | Dec
-            2019 – Present
-          </em>
+          National Center for Atmospheric Research (NCAR), Boulder, CO | Dec
+          2019 – Present
         </p>
         <ul>
           <li>
@@ -79,11 +73,7 @@ const Resume = () => {
         </ul>
 
         <h3>Associate Scientist</h3>
-        <p>
-          <em>
-            AWS Truepower (a UL Company), Albany, NY | Jun 2017 – Oct 2019
-          </em>
-        </p>
+        <p>AWS Truepower (a UL Company), Albany, NY | Jun 2017 – Oct 2019</p>
         <ul>
           <li>
             Produced and verified meteorological and power forecasts for
@@ -105,17 +95,12 @@ const Resume = () => {
         </ul>
       </section>
 
-      <hr />
-
       <section>
         <h2>Education</h2>
 
         <h3>Master of Science in Atmospheric and Environmental Science</h3>
         <p>
-          <em>
-            South Dakota School of Mines and Technology, Rapid City, SD | May
-            2015
-          </em>
+          South Dakota School of Mines and Technology, Rapid City, SD | May 2015
         </p>
         <p>GPA: 3.91 / 4.00</p>
         <p>
@@ -124,24 +109,16 @@ const Resume = () => {
         </p>
 
         <h3>Bachelor of Science in Atmospheric Science</h3>
-        <p>
-          <em>University of Kansas, Lawrence, KS | May 2012</em>
-        </p>
+        <p>University of Kansas, Lawrence, KS | May 2012</p>
         <p>GPA (Major): 3.42 / 4.00</p>
         <p>Certification in Research Experience</p>
       </section>
-
-      <hr />
 
       <section>
         <h2>Research Experience</h2>
 
         <h3>Graduate Researcher – Atmospheric and Environmental Sciences</h3>
-        <p>
-          <em>
-            South Dakota School of Mines and Technology | Aug 2013 – May 2015
-          </em>
-        </p>
+        <p>South Dakota School of Mines and Technology | Aug 2013 – May 2015</p>
         <ul>
           <li>
             Built and utilized UNIX-based verification software for
@@ -156,9 +133,7 @@ const Resume = () => {
         </ul>
 
         <h3>Undergraduate Research Assistant – Atmospheric Science</h3>
-        <p>
-          <em>University of Kansas | Aug 2011 – May 2012</em>
-        </p>
+        <p>University of Kansas | Aug 2011 – May 2012</p>
         <ul>
           <li>
             Analyzed synoptic and mesoscale tornado outbreak conditions using
@@ -170,46 +145,41 @@ const Resume = () => {
         </ul>
       </section>
 
-      <hr />
-
       <section>
         <h2>Projects</h2>
 
         <ul>
           <li>
-            <strong>I-WRF Use Case Development:</strong> Developed experimental
-            weather forecast use cases, automating workflows with Python and
-            Bash in High-Performance Computing environments. Tools: METplus,
-            Bash, HPC, Git, Sphinx, Read the Docs
+            I-WRF Use Case Development: Developed experimental weather forecast
+            use cases, automating workflows with Python and Bash in
+            High-Performance Computing environments. <br />
+            Tools: METplus, Bash, HPC, Git, Sphinx, Read the Docs
           </li>
           <li>
-            <strong>HAFS Precipitation Verification & Visualization:</strong>{" "}
-            Contributed to verification and documentation of HAFS precipitation
-            forecasts using METplus; automated evaluation and maintained project
-            documentation. Tools: METplus, Bash, HPC. Publication: Newman, K.M.,
-            Nelson, B., Biswas, M., & Pan, L. (2024). Multi-season evaluation of
-            HAFS quantitative precipitation forecasts. Frontiers in Earth
-            Science, 12, 1417705. DOI:
+            HAFS Precipitation Verification & Visualization: Contributed to
+            verification and documentation of HAFS precipitation forecasts using
+            METplus; automated evaluation and maintained project documentation.{" "}
+            <br />
+            Tools: METplus, Bash, HPC. <br />
+            Publication: Newman, K.M., Nelson, B., Biswas, M., & Pan, L. (2024).
+            Multi-season evaluation of HAFS quantitative precipitation
+            forecasts. Frontiers in Earth Science, 12, 1417705. DOI:
             https://doi.org/10.3389/feart.2024.1417705
           </li>
           <li>
-            <strong>Responsive Web Design Portfolio:</strong> Completed
-            freeCodeCamp responsive web design certification, building five
-            projects focused on semantic HTML and CSS layout techniques. Tools:
-            HTML5, CSS3
+            Responsive Web Design Portfolio: Completed freeCodeCamp responsive
+            web design certification, building five projects focused on semantic
+            HTML and CSS layout techniques. <br />
+            Tools: HTML5, CSS3
           </li>
           <li>
-            <strong>
-              Weather Model Verification Toolkit (Thesis Project):
-            </strong>{" "}
-            Developed a UNIX-based tool for WRF precipitation forecast
-            verification using NetCDF and GRIB datasets. Tools: Bash, C-Shell,
-            R, NCL, NetCDF, GRIB
+            Weather Model Verification Toolkit (Thesis Project): Developed a
+            UNIX-based tool for WRF precipitation forecast verification using
+            NetCDF and GRIB datasets. <br />
+            Tools: Bash, C-Shell, R, NCL, NetCDF, GRIB
           </li>
         </ul>
       </section>
-
-      <hr />
 
       <section>
         <h2>Technical Skills</h2>
@@ -242,7 +212,7 @@ const Resume = () => {
           </li>
         </ul>
       </section>
-      <hr />
+
       <section className="resume-download">
         <a
           href={`${import.meta.env.BASE_URL}resume.pdf`}

@@ -16,34 +16,13 @@ const Home = () => {
         <p>
           Passionate about collaboration and clean code, I thrive at the
           intersection of research and software, helping teams accelerate
-          weather modeling projects and make data-driven decisions. Currently,
-          I’m learning front-end development and exploring new software
-          development skills to keep growing and expanding my toolkit.
+          weather modeling projects and make data-driven decisions.
         </p>
-      </section>
-
-      <section className="featured-projects">
-        <h3>Featured Projects</h3>
-        <ul>
-          <li>
-            <a
-              href="https://github.com/briannemg/example-project"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Example Project — A demo of React magic
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/briannemg/weather-model-verification"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Weather Model Verification Toolkit
-            </a>
-          </li>
-        </ul>
+        <p>
+          I love exploring new software development skills and expanding my
+          toolkit. Currently, I’m learning front-end development and honing my
+          Python skills.
+        </p>
       </section>
 
       <section className="personal-touch">
