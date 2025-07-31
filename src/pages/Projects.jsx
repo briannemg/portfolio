@@ -26,6 +26,12 @@ const allProjects = [
     demo: "https://briannemg.github.io/fcc-random-quote-machine",
   },
   {
+    category: "Front-End",
+    title: "freeCodeCamp Drum Machine",
+    code: "https://github.com/briannemg/fcc-drum-machine",
+    demo: "https://briannemg.github.io/fcc-drum-machine",
+  },
+  {
     category: "Python",
     title: "Data Analysis Projects - NOT REAL",
     description:
