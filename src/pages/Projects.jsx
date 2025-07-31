@@ -38,6 +38,12 @@ const allProjects = [
     demo: "https://briannemg.github.io/fcc-drum-machine",
   },
   {
+    category: "Front-End",
+    title: "freeCodeCamp Calculator",
+    code: "https://github.com/briannemg/fcc-calculator",
+    demo: "https://briannemg.github.io/fcc-calculator",
+  },
+  {
     category: "Python",
     title: "Data Analysis Projects - NOT REAL",
     description:
