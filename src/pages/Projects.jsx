@@ -27,6 +27,12 @@ const allProjects = [
   },
   {
     category: "Front-End",
+    title: "freeCodeCamp Markdown Previewer",
+    code: "https://github.com/briannemg/fcc-markdown-previewer",
+    demo: "https://briannemg.github.io/fcc-markdown-previewer",
+  },
+  {
+    category: "Front-End",
     title: "freeCodeCamp Drum Machine",
     code: "https://github.com/briannemg/fcc-drum-machine",
     demo: "https://briannemg.github.io/fcc-drum-machine",
