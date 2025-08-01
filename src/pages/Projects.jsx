@@ -44,6 +44,12 @@ const allProjects = [
     demo: "https://briannemg.github.io/fcc-calculator",
   },
   {
+    category: "Front-End",
+    title: "freeCodeCamp Pomodoro Timer",
+    code: "https://github.com/briannemg/fcc-pomodoro-timer",
+    demo: "https://briannemg.github.io/fcc-pomodoro-timer",
+  },
+  {
     category: "Python",
     title: "Data Analysis Projects - NOT REAL",
     description:
