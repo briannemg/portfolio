@@ -27,9 +27,27 @@ const allProjects = [
   },
   {
     category: "Front-End",
+    title: "freeCodeCamp Markdown Previewer",
+    code: "https://github.com/briannemg/fcc-markdown-previewer",
+    demo: "https://briannemg.github.io/fcc-markdown-previewer",
+  },
+  {
+    category: "Front-End",
     title: "freeCodeCamp Drum Machine",
     code: "https://github.com/briannemg/fcc-drum-machine",
     demo: "https://briannemg.github.io/fcc-drum-machine",
+  },
+  {
+    category: "Front-End",
+    title: "freeCodeCamp Calculator",
+    code: "https://github.com/briannemg/fcc-calculator",
+    demo: "https://briannemg.github.io/fcc-calculator",
+  },
+  {
+    category: "Front-End",
+    title: "freeCodeCamp Pomodoro Timer",
+    code: "https://github.com/briannemg/fcc-pomodoro-timer",
+    demo: "https://briannemg.github.io/fcc-pomodoro-timer",
   },
   {
     category: "Python",
