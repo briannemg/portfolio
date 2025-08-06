@@ -33,10 +33,10 @@ const allProjects = [
   },
   {
     category: "Python",
-    title: "Data Analysis Projects - NOT REAL",
+    title: "Tic Tac Toe Game",
     description:
-      "Python projects demonstrating exploratory data analysis, visualization, and statistical insights.",
-    code: "https://github.com/briannemg/data-analysis-projects",
+      "A simple but thoughtfully structured Python project built to practice object-oriented programming, input validation, and interactive command-line design—complete with ASCII art and replay logic.",
+    code: "https://github.com/briannemg/python-game",
     // no demo
   },
 ];
