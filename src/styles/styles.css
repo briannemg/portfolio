@@ -52,6 +52,14 @@ a {
   margin: 0 auto;
 }
 
+.about,
+.skills,
+.projects,
+.learning-projects,
+.footer {
+  border-top: 1px solid var(--border);
+}
+
 .hero {
   min-height: 68vh;
   display: flex;
@@ -150,7 +158,6 @@ h3 {
 
 .about {
   padding: 3rem 0;
-  border-top: 1px solid var(--border);
 }
 
 .about p,
@@ -164,7 +171,6 @@ h3 {
 
 .skills {
   padding: 3rem 0;
-  border-top: 1px solid var(--border);
 }
 
 .skills-grid {
@@ -207,10 +213,20 @@ h3 {
   gap: 1.1rem;
   min-height: 100%;
   padding: 1.6rem;
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid var(--border);
   border-radius: 1.35rem;
   box-shadow: var(--shadow);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 22px 55px rgba(80, 55, 68, 0.12);
 }
 
 .project-subtitle {
@@ -262,9 +278,8 @@ h3 {
 }
 
 .learning-projects {
-  margin-top: 4rem;
-  padding-top: 3rem;
-  border-top: 1px solid var(--border);
+  margin-top: 5rem;
+  padding-top: 4rem;
 }
 
 .project-grid.compact {
@@ -274,7 +289,6 @@ h3 {
 .footer {
   padding: 2rem 0 3rem;
   color: var(--muted);
-  border-top: 1px solid var(--border);
   text-align: center;
 }
 

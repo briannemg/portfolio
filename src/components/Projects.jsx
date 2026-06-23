@@ -21,7 +21,8 @@ function Projects() {
       </div>
 
       <div className="learning-projects">
-        <h2>Frontend Practice</h2>
+        <p className="eyebrow">Web Development</p>
+        <h2>Frontend Development Practice</h2>
         <p>
           Smaller projects focused on strengthening HTML, CSS, responsive
           design, and frontend fundamentals.
