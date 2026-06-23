@@ -74,7 +74,7 @@ export const featuredProjects = [
       "Data Visualization",
     ],
     repoUrl: "https://github.com/briannemg/kids-growth-charts",
-    demoUrl: "",
+    demoUrl: "https://kids-growth-charts.onrender.com/",
     image: "/images/placeholder.png",
   },
 ];
