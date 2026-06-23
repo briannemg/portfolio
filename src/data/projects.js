@@ -13,10 +13,11 @@ export const featuredProjects = [
     tech: ["Python", "SQLite", "SQL", "Pandas", "Matplotlib", "REST APIs"],
     repoUrl: "https://github.com/briannemg/forecast-verification-platform",
     demoUrl: "",
+    image: "/images/forecast-verification.png",
   },
   {
     title: "Book Analytics Platform",
-    subtitle: "Relational database and BI reporting project",
+    subtitle: "Data engineering and business intelligence pipeline",
     description:
       "Developed a full-stack personal analytics platform that transforms raw reading history data into a normalized relational database, automated ETL workflow, and Tableau reporting layer.",
     highlights: [
@@ -28,10 +29,11 @@ export const featuredProjects = [
     tech: ["Python", "SQLite", "SQL", "Pandas", "Tableau", "ETL"],
     repoUrl: "https://github.com/briannemg/book-analytics-platform",
     demoUrl: "",
+    image: "/images/book-analytics.png",
   },
   {
     title: "Atmospheric Pattern Analysis Tool",
-    subtitle: "Meteorological analysis and visualization application",
+    subtitle: "Scientific computing and geospatial data analysis",
     description:
       "Built a Python-based atmospheric analysis project that processes large-scale anomaly data, generates meteorological visualizations, and presents results through a web-based project page.",
     highlights: [
@@ -49,10 +51,11 @@ export const featuredProjects = [
     ],
     repoUrl: "https://github.com/briannemg/large-scale-anomaly-project",
     demoUrl: "",
+    image: "/images/atmospheric-analysis.png",
   },
   {
     title: "Pediatric Growth Tracking Application",
-    subtitle: "Full-stack health data management application",
+    subtitle: "Full-stack data visualization application",
     description:
       "Built a full-stack web application that allows users to enter child growth measurements, stores historical data in a database, generates dynamic growth charts, and supports full record management through an interactive interface.",
     highlights: [
@@ -72,6 +75,7 @@ export const featuredProjects = [
     ],
     repoUrl: "https://github.com/briannemg/kids-growth-charts",
     demoUrl: "",
+    image: "/images/placeholder.png",
   },
 ];
 

@@ -1,6 +1,23 @@
 function ProjectCard({ project }) {
   return (
     <article className="project-card">
+      {project.image && (
+        <div className="project-image-wrapper">
+          <a
+            href={`${import.meta.env.BASE_URL}${project.image.replace("/", "")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}${project.image.replace("/", "")}`}
+              alt={project.title}
+              className="project-image"
+            />
+
+            <div className="image-overlay">View Full Preview ↗</div>
+          </a>
+        </div>
+      )}
       <div className="project-card-header">
         {project.subtitle && (
           <p className="project-subtitle">{project.subtitle}</p>

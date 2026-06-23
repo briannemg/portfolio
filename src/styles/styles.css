@@ -191,9 +191,9 @@ h3 {
   padding: 3rem 0;
 }
 
-.about p,
-.section-heading p,
-.learning-projects > p {
+.about p:not(.eyebrow),
+.section-heading p:not(.eyebrow),
+.learning-projects > p:not(.eyebrow) {
   max-width: 760px;
   color: var(--muted);
   font-size: 1.05rem;
@@ -258,6 +258,41 @@ h3 {
   transform: translateY(-4px);
   border-color: var(--accent);
   box-shadow: 0 22px 55px rgba(80, 55, 68, 0.12);
+}
+
+.project-image-wrapper {
+  position: relative;
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(52, 50, 56, 0.72);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.project-image-wrapper:hover .image-overlay {
+  opacity: 1;
 }
 
 .project-subtitle {
