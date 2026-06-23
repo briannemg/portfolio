@@ -60,6 +60,37 @@ a {
   border-top: 1px solid var(--border);
 }
 
+#about,
+#skills,
+#projects,
+#contact {
+  scroll-margin-top: 5rem;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  backdrop-filter: blur(14px);
+}
+
+.nav a {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--accent-dark);
+}
+
 .hero {
   min-height: 68vh;
   display: flex;

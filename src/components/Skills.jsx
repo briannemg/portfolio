@@ -2,7 +2,7 @@ import { skills } from "../data/skills";
 
 function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <p className="eyebrow">Core Skills</p>
       <h2>Technical Toolkit</h2>
 

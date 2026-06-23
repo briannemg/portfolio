@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="hero">
+    <header className="hero" id="top">
       <div className="hero-content">
         <p className="eyebrow">Python • Data Systems • Scientific Computing</p>
 
