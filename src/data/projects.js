@@ -50,7 +50,7 @@ export const featuredProjects = [
       "Scientific Computing",
     ],
     repoUrl: "https://github.com/briannemg/large-scale-anomaly-project",
-    demoUrl: "",
+    demoUrl: "https://briannemg.github.io/large-scale-anomaly-project/",
     image: "/images/atmospheric-analysis.png",
   },
   {
