@@ -256,6 +256,26 @@ h3 {
   text-align: center;
 }
 
+.footer p {
+  margin: 0 0 0.75rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 760px) {
   .hero {
     min-height: auto;
