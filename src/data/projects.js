@@ -55,7 +55,7 @@ export const featuredProjects = [
   },
   {
     title: "Pediatric Growth Tracking Application",
-    subtitle: "Full-stack data visualization application",
+    subtitle: "Full-stack data growth tracking and analytics application",
     description:
       "Built a full-stack web application that allows users to enter child growth measurements, stores historical data in a database, generates dynamic growth charts, and supports full record management through an interactive interface.",
     highlights: [
@@ -75,7 +75,7 @@ export const featuredProjects = [
     ],
     repoUrl: "https://github.com/briannemg/kids-growth-charts",
     demoUrl: "https://kids-growth-charts.onrender.com/",
-    image: "/images/placeholder.png",
+    image: "/images/growth-tracker-demo.png",
   },
 ];
 
