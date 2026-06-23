@@ -3,7 +3,7 @@ export const featuredProjects = [
     title: "Forecast Verification Platform",
     subtitle: "API-driven forecast evaluation pipeline",
     description:
-      "Built and end-to-end Python data pipeline that retrieves archived weather forecast and historical weather data from external APIs, stores normalized records in SQLite, calculates forecast verification metrics, and generates analytical visualizations.",
+      "Built an end-to-end Python data pipeline that retrieves archived weather forecast and historical weather data from external APIs, stores normalized records in SQLite, calculates forecast verification metrics, and generates analytical visualizations.",
     highlights: [
       "Integrated REST APIs with reusable Python client functions",
       "Designed a normalized SQLite schema for forecast, observation, and verification data",
@@ -11,8 +11,8 @@ export const featuredProjects = [
       "Generated time series and summary visualizations for model evaluation",
     ],
     tech: ["Python", "SQLite", "SQL", "Pandas", "Matplotlib", "REST APIs"],
-    repoUrl: "https://github.com/briannemg/forecast-verification/platform",
-    liveUrl: "",
+    repoUrl: "https://github.com/briannemg/forecast-verification-platform",
+    demoUrl: "",
   },
   {
     title: "Book Analytics Platform",
@@ -27,43 +27,51 @@ export const featuredProjects = [
     ],
     tech: ["Python", "SQLite", "SQL", "Pandas", "Tableau", "ETL"],
     repoUrl: "https://github.com/briannemg/book-analytics-platform",
-    liveUrl: "",
+    demoUrl: "",
   },
   {
-    title: "Large-Scale Anomaly Project",
-    subtitle: "Meteorological data analysis and visualization",
+    title: "Atmospheric Pattern Analysis Tool",
+    subtitle: "Meteorological analysis and visualization application",
     description:
-      "Analyzed large-scale atmospheric anomaly patterns using Python-based scientific computing workflows, with a focus on meteorological interpretation, data processing, and visualization.",
+      "Built a Python-based atmospheric analysis project that processes large-scale anomaly data, generates meteorological visualizations, and presents results through a web-based project page.",
     highlights: [
       "Processed atmospheric datasets using Python scientific libraries",
-      "Created geospatial visualizations for anomaly analysis",
+      "Created geospatial visualizations for 500-mb height anomaly analysis",
       "Applied meteorological domain knowledge to interpret synoptic-scale patterns",
-      "Documented reproducible analysis workflow in a public repository",
+      "Published analysis outputs through a public-facing web presentation",
     ],
     tech: [
       "Python",
       "Meteorology",
       "Data Analysis",
-      "Visualization",
+      "Geospatial Visualization",
       "Scientific Computing",
     ],
     repoUrl: "https://github.com/briannemg/large-scale-anomaly-project",
-    liveUrl: "",
+    demoUrl: "",
   },
   {
-    title: "Kids Growth Charts",
-    subtitle: "Personal data tracking and visualization tool",
+    title: "Pediatric Growth Tracking Application",
+    subtitle: "Full-stack health data management application",
     description:
-      "Built a Python-based data project for tracking and visualizing child growth data over time, emphasizing clean data organization, repeatable analysis, and clear chart outputs.",
+      "Built a full-stack web application that allows users to enter child growth measurements, stores historical data in a database, generates dynamic growth charts, and supports full record management through an interactive interface.",
     highlights: [
-      "Structured longitudinal growth data for repeatable analysis",
-      "Generated clear visualizations from personal datasets",
-      "Applied Python and data cleaning techniques to real-world family data",
-      "Designed project for maintainability and future updates",
+      "Built user-facing forms for entering growth measurements",
+      "Persisted longitudinal growth data in a backend database",
+      "Generated dynamic visualizations directly within the application",
+      "Implemented full CRUD functionality with edit and delete operations",
     ],
-    tech: ["Python", "Pandas", "Matplotlib", "Data Cleaning", "Visualization"],
+    tech: [
+      "Python",
+      "Flask",
+      "SQLite",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Data Visualization",
+    ],
     repoUrl: "https://github.com/briannemg/kids-growth-charts",
-    liveUrl: "",
+    demoUrl: "",
   },
 ];
 
@@ -71,8 +79,9 @@ export const learningProjects = [
   {
     title: "Responsive Web Design Projects",
     description:
-      "Collection of HTML and CSS projects completed with rebuilding frontend fundamentals through freeCodeCamp.",
+      "Collection of HTML and CSS projects completed while rebuilding frontend fundamentals through freeCodeCamp.",
     tech: ["HTML", "CSS", "Responsive Design"],
     repoUrl: "https://github.com/briannemg/fcc-responsive-web-design",
+    demoUrl: "",
   },
 ];
