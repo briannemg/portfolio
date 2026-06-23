@@ -1,28 +1,22 @@
+import { profile } from "../data/profile";
+
 function Header() {
   return (
     <header className="hero" id="top">
       <div className="hero-content">
-        <p className="eyebrow">Python • Data Systems • Scientific Computing</p>
+        <p className="eyebrow">{profile.tagline}</p>
 
-        <h1>Brianne Nelson</h1>
+        <h1>{profile.name}</h1>
 
-        <p className="hero-description">
-          I build reliable data pipelines, analytical applications, and
-          automation tools that turn complex datasets into clear, usable
-          insights.
-        </p>
+        <p className="hero-description">{profile.description}</p>
 
         <div className="hero-buttons">
-          <a
-            href="https://github.com/briannemg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={profile.githubUrl} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
 
           <a
-            href="https://www.linkedin.com/in/brianne-gerber-nelson/"
+            href={profile.linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
           >

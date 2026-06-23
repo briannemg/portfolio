@@ -1,17 +1,15 @@
+import { profile } from "../data/profile";
+
 function Footer() {
   return (
     <footer className="footer" id="contact">
-      <p>Built by Brianne Nelson</p>
+      <p>Built by {profile.name}</p>
 
       <div className="footer-links">
-        <a href="https://github.com/briannemg" target="_blank" rel="noreferrer">
+        <a href={profile.githubUrl} target="_blank" rel="noreferrer">
           GitHub
         </a>
-        <a
-          href="https://www.linkedin.com/in/brianne-gerber-nelson/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={profile.linkedinUrl} target="_blank" rel="noreferrer">
           LinkedIn
         </a>
       </div>
