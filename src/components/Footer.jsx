@@ -12,6 +12,7 @@ function Footer() {
         <a href={profile.linkedinUrl} target="_blank" rel="noreferrer">
           LinkedIn
         </a>
+        <a href={`mailto:${profile.email}`}>Email</a>
       </div>
     </footer>
   );
