@@ -1,10 +1,13 @@
-const App = () => {
+import Header from "./components/Header";
+import About from "./components/About";
+
+function App() {
   return (
-    <main>
-      <h1>Brianne Nelson</h1>
-      <p>Forecast verification • data analysis • Python automation</p>
-    </main>
+    <>
+      <Header />
+      <About />
+    </>
   );
-};
+}
 
 export default App;
