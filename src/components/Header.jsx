@@ -2,15 +2,14 @@ function Header() {
   return (
     <header className="hero">
       <div className="hero-content">
-        <p className="eyebrow">
-          Python Developer • Data Analyst • Atmospheric Scientist
-        </p>
+        <p className="eyebrow">Python • Data Systems • Scientific Computing</p>
 
         <h1>Brianne Nelson</h1>
 
         <p className="hero-description">
-          I build data-driven applications, automated pipelines, and analytical
-          tools using Python, SQL, APIs, and scientific computing.
+          I build reliable data pipelines, analytical applications, and
+          automation tools that turn complex datasets into clear, usable
+          insights.
         </p>
 
         <div className="hero-buttons">
