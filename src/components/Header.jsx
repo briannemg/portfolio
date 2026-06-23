@@ -8,7 +8,7 @@ function Header() {
 
         <h1>{profile.name}</h1>
 
-        <p className="hero-description">{profile.description}</p>
+        <p className="hero-description">{profile.heroDescription}</p>
 
         <div className="hero-buttons">
           <a href={profile.githubUrl} target="_blank" rel="noopener noreferrer">

@@ -1,15 +1,12 @@
+import { profile } from "../data/profile";
+
 function About() {
   return (
     <section className="about" id="about">
-      <h2>About</h2>
+      <p className="eyebrow">Approach</p>
+      <h2>{profile.aboutTitle}</h2>
 
-      <p>
-        I am a Python developer and data analyst with a background in
-        atmospheric science, scientific computing, and automation engineering.
-        My work focuses on building scalable data pipelines, integrating APIs,
-        designing databases, developing analytical applications, and
-        transforming complex datasets into actionable insights.
-      </p>
+      <p>{profile.aboutDescription}</p>
     </section>
   );
 }
